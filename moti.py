@@ -3,7 +3,7 @@ import asyncio
 import os
 from openai import OpenAI, AsyncOpenAI
 
-client = AsyncOpenAI(api_key = "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")
+client = AsyncOpenAI(api_key = "")
 
 async def getweather() -> None:
   async with python_weather.Client(unit=python_weather.METRIC) as client:
