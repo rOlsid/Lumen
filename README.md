@@ -1,7 +1,7 @@
 # Lumen
-Robotic Dog
-<img width="695" height="927" alt="1000072872" src="https://github.com/user-attachments/assets/561f5e27-8ab4-4d7e-889b-e4c8ee3911d8" />
 # Lumen: Personal Assistant for the Elderly & Visually Impaired
+<img width="695" height="927" alt="1000072872" src="https://github.com/user-attachments/assets/561f5e27-8ab4-4d7e-889b-e4c8ee3911d8" />
+
 
 Lumen is a specialized service robot built on the Raspberry Pi platform, specifically designed to foster independence and safety for the elderly and individuals with sight impairments [cite: ekrani.py, lumen_m.py]. By combining hardware sensors with AI-driven interaction, Lumen serves as a vigilant and supportive companion in the home environment [cite: gas.py, lumen_s.py].
 
