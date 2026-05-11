@@ -4,8 +4,8 @@ import os
 from twilio.rest import Client
 import subprocess
 
-account_sid = 'AC5f8f463f802c9cb02a145a98029ed5da'
-auth_token = 'a2d49a78ab160c26d1faea2a138f5aed'
+account_sid = ''
+auth_token = ''
 client = Client(account_sid, auth_token)
 
 GPIO.setmode(GPIO.BCM)
@@ -20,8 +20,8 @@ try:
             gas_state = "Gas Present"
             call = client.calls.create(
               url="http://demo.twilio.com/docs/voice.xml",
-              to='+355688008886',
-              from_='+16057414265'
+              to='+',
+              from_='+'
             )
             print(call.sid)
             break
